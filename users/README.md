@@ -1,14 +1,16 @@
 # users
 
 ## Get started
+global depandencies pm2
+
 ```bash
 yarn install
-yarn run start
+yarn start
 ```
 
-Open a new tab  
+Stopping processes
 ```bash
-yarn run json-server
+yarn stop
 ```
 
 http://localhost:4000/graphql  
