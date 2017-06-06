@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name"        : "json-server",
+    "script"      : "./node_modules/.bin/json-server",
+    "args"        : "--watch db.json"
+  },{
+    "name"       : "express-graphql",
+    "script"     : "./server.js",
+    "watch"      : true
+  }]
+}
