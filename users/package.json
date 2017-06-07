@@ -1,8 +1,22 @@
 {
   "name": "users",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/nicodinh/graphql-with-react-tutorial/tree/master/users",
+  "repository": "git@github.com:nicodinh/graphql-with-react-tutorial.git",
+  "bugs": {
+    "url": "https://github.com/nicodinh/graphql-with-react-tutorial/issues",
+    "email": "nicodinh@azari.fr"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "relay"
+  ],
+  "engines" : { "node" : ">=8.0.0" },
+  "os" : [ "!win32" ],
   "dependencies": {
     "axios": "^0.16.2",
     "express": "^4.15.3",
