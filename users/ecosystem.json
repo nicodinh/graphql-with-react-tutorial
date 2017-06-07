@@ -5,7 +5,7 @@
     "args"        : "--watch db.json"
   },{
     "name"       : "express-graphql",
-    "script"     : "./server.js",
+    "script"     : "./lib/index.js",
     "watch"      : true
   }]
 }

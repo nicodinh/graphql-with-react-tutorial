@@ -1,7 +1,7 @@
 {
   "name": "users",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/nicodinh/graphql-with-react-tutorial/tree/master/users",
