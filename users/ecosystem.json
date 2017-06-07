@@ -6,6 +6,6 @@
   },{
     "name"       : "express-graphql",
     "script"     : "./lib/index.js",
-    "watch"      : true
+    "watch"      : "./lib/"
   }]
 }
