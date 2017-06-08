@@ -1,7 +1,7 @@
 # users
 
 ## Get started
-global depandencies pm2
+global dependencies pm2
 
 ```bash
 yarn install
