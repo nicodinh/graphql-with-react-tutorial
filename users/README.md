@@ -88,5 +88,12 @@ mutation {
     id
   }
 }
+```
 
+```graphql
+mutation {
+  editUser(id: "23", firstName: "nicolas", age: 0) {
+    age
+  }
+}
 ```
