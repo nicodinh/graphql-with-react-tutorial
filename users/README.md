@@ -70,5 +70,14 @@ fragment companyDetails on Company {
   name
   description
 }
+```
 
+```graphql
+mutation {
+  addUser(firstName: "Stephen", age: 26) {
+    id
+    firstName
+    age
+  }
+}
 ```
