@@ -5,15 +5,17 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+    "url": ""
   },
   "scripts": {
-    "dev": "nodemon index.js --ignore client"
+    "start": "pm2 start ecosystem.json",
+    "restart": "pm2 restart ecosystem.json",
+    "stop": "pm2 stop ecosystem.json",
+    "delete": "pm2 delete ecosystem.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "*",
     "apollo-client": "^0.8.1",
     "axios": "^0.15.3",
     "babel-core": "^6.22.1",

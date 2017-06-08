@@ -1,0 +1,8 @@
+{
+  "apps": [{
+    "name"          : "express-graphql",
+    "script"        : "./index.js",
+    "watch"         : [ "./", "./server/" ],
+    "ignore_watch"  : [ "./node_modules/", "./client/" ]
+  }]
+}
