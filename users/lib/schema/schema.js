@@ -87,9 +87,21 @@ const mutation = new GraphQLObjectType({
         return axios.post('http://localhost:3000/users', { firstName, age })
           .then(response => response.data);
       }
+    },
+    deleteUser: {
+      type: UserType,
+      args: {
+        id: { type: new GraphQLNonNull(GraphQLString) }
+      },
+      resolve(parentValue, args) {
+        const { id } = args;
+        return axios.delete(`http://localhost:3000/users/${id}`)
+          .then(response => response.data);
+      }
     }
+
   }
-});
+}); 
 
 module.exports = new GraphQLSchema({
   query: RootQuery,

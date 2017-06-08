@@ -81,3 +81,12 @@ mutation {
   }
 }
 ```
+
+```graphql
+mutation {
+  deleteUser(id: "Skk88i8z-") {
+    id
+  }
+}
+
+```
